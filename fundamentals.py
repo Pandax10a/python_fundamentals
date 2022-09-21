@@ -46,10 +46,10 @@ dynamic_greeting('not i')
 def find_treasure(sparkle):
     for ii in sparkle:
         if(ii == 'treasure'):
-            print('true')
-        else:
-            print('false')
-
+            print(ii, 'true')
+            return True
+    print(ii, 'false')
+    return False
 
 no_sparkle = ['not here', 'still not here', 'closer', 'whoops too far']
 
