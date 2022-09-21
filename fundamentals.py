@@ -29,3 +29,16 @@ for a_x in array_x:
 for a_num in array_num:
     print('look at this number ', a_num)
 
+def static_greeting():
+    print('Hello your meme here')
+
+static_greeting()
+
+def dynamic_greeting(something):
+    print('hello', something)
+
+dynamic_greeting('apple')
+
+dynamic_greeting('friday')
+
+dynamic_greeting('not i')
