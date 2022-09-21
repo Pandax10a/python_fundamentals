@@ -19,3 +19,13 @@ elif(x > 100 or this_number == True):
 else:
     print("i don't know")
 
+array_x = ['this is', 'a long string', 'from the strings']
+
+array_num = [10, 7, 5, 3, 1, 2, 4, 6, 8]
+
+for a_x in array_x:
+    print(a_x)
+
+for a_num in array_num:
+    print('look at this number ', a_num)
+
