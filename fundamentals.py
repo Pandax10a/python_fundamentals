@@ -42,3 +42,19 @@ dynamic_greeting('apple')
 dynamic_greeting('friday')
 
 dynamic_greeting('not i')
+
+def find_treasure(sparkle):
+    for ii in sparkle:
+        if(ii == 'treasure'):
+            print('true')
+        else:
+            print('false')
+
+
+no_sparkle = ['not here', 'still not here', 'closer', 'whoops too far']
+
+yes_sparkle = ['almost there', 'treasure']
+
+find_treasure(no_sparkle)
+
+find_treasure(yes_sparkle)
